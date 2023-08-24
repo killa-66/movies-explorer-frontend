@@ -1,0 +1,8 @@
+.tech__list {
+  margin: 100px 0 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}

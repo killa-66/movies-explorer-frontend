@@ -1,0 +1,32 @@
+.load-more {
+  display: flex;
+  justify-content: center;
+  min-height: 166px;
+}
+
+.load-more__button {
+  cursor: pointer;
+  margin-top: 50px;
+  box-sizing: border-box;
+  border: none;
+  padding: 11px 60px 9px;
+  border-radius: 6px;
+  background: #F4F4F4;
+  color: #000;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+  min-width: 320px;
+  height: 36px;
+}
+
+.spacer {
+  height: 140px;
+}
+
+@media screen and (max-width: 767px) {
+  .load-more__btn {
+    min-width: 240px;
+  }
+}

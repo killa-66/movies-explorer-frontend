@@ -1,0 +1,33 @@
+.techs__background {
+  background-color: #F5F5F5;
+  min-height: 625px;
+}
+
+.techs__title {
+  margin-top: 90px;
+  margin-bottom: 0;
+
+  color: #000;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: -2px;
+}
+
+.techs__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.techs__subtitle {
+  margin: 28px 0 0;
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.56px;
+}

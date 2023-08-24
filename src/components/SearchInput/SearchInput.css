@@ -1,0 +1,128 @@
+.search__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  height: 222px;
+}
+
+.search__form {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  height: 72px;
+  width: 1140px;
+  box-sizing: border-box;
+  border-radius: 9px;
+  background: #FFF;
+  box-shadow: 0 3px 14px 0 rgba(0, 0, 0, 0.08);
+}
+
+.search__wrapper {
+  display: flex;
+  align-items: center;
+  width: 875px;
+  border-right: 1px solid #CBCBCB;
+  padding: 0 19px;
+}
+
+.search__find-icon {
+  width: 34px;
+  height: 34px;
+  background-image: url("../../images/find-icon.svg");
+}
+
+.search__input {
+  margin-left: 7px;
+  border: none;
+}
+
+.search__button {
+  margin-left: auto;
+  border: none;
+  background-image: url("../../images/find.svg");
+  background-color: transparent;
+  background-size: cover;
+  width: 34px;
+  height: 34px;
+}
+
+.search__input::placeholder {
+  color: #A0A0A0;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+.filter-checkbox {
+  margin-left: 29px;
+}
+
+.search__hr {
+  margin-top: 68px;
+  background-color: #E8E8E8;
+  width: 1140px;
+}
+
+
+@media screen and (max-width: 1150px){
+  .search__section {
+    height: 272px;
+  }
+
+  .search__form {
+    margin-top: 80px;
+    width: 708px;
+  }
+
+  .search__wrapper {
+    width: 462px;
+  }
+
+  .filter-checkbox {
+    margin-left: 19px;
+  }
+
+  .search__hr {
+    width: 708px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .search__find-icon {
+    display: none;
+  }
+
+  .search__form {
+    width: 300px;
+    position: relative;
+  }
+
+  .search__input {
+    padding: 0;
+    margin: 0;
+  }
+
+  .search__input::placeholder {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .search__wrapper {
+    width: 300px;
+    border: none;
+  }
+
+  .search__hr {
+    width: 300px;
+    margin-top: 109px;
+  }
+
+  .search__checkbox-wrapper {
+    position: absolute;
+    left: 56px;
+    top: 120px;
+  }
+}

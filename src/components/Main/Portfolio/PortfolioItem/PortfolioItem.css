@@ -1,0 +1,42 @@
+.portfolio__item {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 0 19px 0;
+}
+
+.portfolio__item:not(:first-child) {
+  padding: 20px 0 19px 0;
+}
+
+.portfolio__item:not(:last-child) {
+  border-bottom: 1px solid #E8E8E8;
+}
+
+.portfolio__item:last-child {
+  padding: 20px 0 0 0;
+}
+
+.portfolio__description {
+  margin: 0;
+  color: #000;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: -1.2px;
+}
+
+.portfolio__button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  background-image: url("../../../../images/arrow_btn.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 18px;
+  height: 18px;
+  transform: translate(-5px, 5px);
+}
