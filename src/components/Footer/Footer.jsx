@@ -4,7 +4,7 @@ import './Footer.css';
 export default function Footer() {
   return (
     <footer className="footer">
-      <h4 className="footer__title">Учебный проект Яндекс.Практикум х BeatFilm.</h4>
+      <p className="footer__title">Учебный проект Яндекс.Практикум х BeatFilm.</p>
       <div className="footer__bottom">
         <p className="footer__copyright footer__item">© {(new Date()).getFullYear()}</p>
         <div className="footer__links">

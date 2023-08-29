@@ -11,7 +11,7 @@ export default function AboutMe() {
       <div className="about-me__content">
         <img alt="Ярослав" className="about-me__photo" />
         <div className="about-me__description-wrapper">
-          <h2 className="about-me__name">Ярослав</h2>
+          <h3 className="about-me__name">Ярослав</h3>
           <p className="about-me__profession">Фуллстэк-разработчик, 24 года</p>
           <p className="about-me__bio">
             Я родился и живу в Москве, закончил НИУ МЭИ, кафедру общей физики и термоядерного синтеза.

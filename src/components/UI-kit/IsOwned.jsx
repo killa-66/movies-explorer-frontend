@@ -1,9 +1,10 @@
 import React from "react";
 
-const IsSaved = ({ owned }) => {
+const IsOwned = ({ owned }) => {
   if (owned) {
     return (
       <svg
+        className={"movies-card_is-owned"}
         xmlns="http://www.w3.org/2000/svg"
         width="28"
         height="28"
@@ -60,6 +61,7 @@ const IsSaved = ({ owned }) => {
   }
   return (
     <svg
+      className={"movies-card__icon-delete"}
       xmlns="http://www.w3.org/2000/svg"
       width="28"
       height="28"
@@ -115,4 +117,4 @@ const IsSaved = ({ owned }) => {
   );
 };
 
-export default IsSaved;
+export default IsOwned;

@@ -6,7 +6,7 @@ export default function LoadMore({ isMore }) {
 
   return (
     <section className={loaderStyle}>
-      {isMore && <button className="load-more__button">Еще</button>}
+      {isMore && <button type='button' className="load-more__button">Еще</button>}
     </section>
   );
 }

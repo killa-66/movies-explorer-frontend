@@ -65,7 +65,7 @@ export default function Profile() {
             </div>
           </div>
           {button}
-          <button className="profile__button profile__button_type_exit">
+          <button type='button' className="profile__button profile__button_type_exit">
             Выйти из аккаунта
           </button>
         </form>

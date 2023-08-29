@@ -6,7 +6,7 @@
 .promo__wrapper {
   display: flex;
   gap: 40px;
-  margin-top: 70px;
+  margin-top: 75px;
 }
 
 .promo__subtitle {
@@ -20,51 +20,45 @@
   margin-bottom: 26px;
 }
 
-.promo__description-wrapper {
-  width: 550px;
-  order: 2;
-}
-
 .promo__description {
   margin: 0;
   color: #000;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 142.857% */
+  line-height: 20px;
 }
 
-.progressBar {
+.promo__progressBar {
   display: flex;
   width: 100%;
   height: 36px;
-  margin-top: 119px;
+  margin-top: 110px;
 }
 
-.progressBar__part_short {
+.promo__progressBar-part_short {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 20%;
 }
 
-.progressBar__part_long {
+.promo__progressBar-part_long {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 80%;
 }
 
-.progressBar__back {
+.promo__progressBar-back {
   background-color: #3456F3;
 }
 
-.progressBar__front {
+.promo__progressBar-front {
   background-color: #F2F2F2;
-  
 }
 
-.progressBar__text {
+.promo__progressBar-text {
   margin: 0;
   color: #000;
   text-align: center;
@@ -74,18 +68,118 @@
   line-height: normal;
 }
 
-.progressBar__text_colorized {
+.promo__progressBar-text_colorized {
   color: #fff;
 }
 
-.progressBar__description {
+.promo__progressBar-description {
   display: flex;
   width: 100%;
   height: 17px;
   margin-top: 14px;
 }
 
-.progressBar__description_text {
+.promo__progressBar-description-text {
   color: #A0A0A0;
   line-height: 17px;
+}
+
+@media screen and (max-width: 1279px) {
+  .promo__text-block {
+    max-width: 440px;
+    gap: 22px;
+  }
+
+  .promo__description-wrapper {
+    margin-top: 72px;
+    gap: 30px;
+    justify-content: space-between;
+  }
+
+  .promo__subtitle {
+    font-size: 20px;
+  }
+
+  .promo__description {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .promo__progress-notation-item {
+    width: 21%;
+  }
+
+  .promo__progress-item {
+    width: 21%;
+  }
+
+  .promo__progressBar{
+    margin-top: 90px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .promo__text-block {
+    max-width: 319px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .promo__text-block {
+    gap: 16px;
+    max-width: 284px;
+    flex-direction: column;
+  }
+  
+  .promo__wrapper {
+    margin-top: 60px;
+    gap: 50px;
+  }
+
+  .promo__progressBar {
+    margin-top: 60px;
+  }
+
+  .promo__subtitle {
+    font-size: 18px;
+    margin-top: 56px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+
+  .promo__subtitle:first-child {
+    margin-top: 0;
+  }
+
+  .promo__description {
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .promo__progressBar-part_short {
+    width: 35%;
+  }
+
+  .promo__progressBar-part_long {
+    width: 65%;
+  }
+
+  .promo__progress-item:last-child {
+    width: 65%;
+  }
+
+  .promo__progressBar-text {
+    font-size: 11px;
+    line-height: 13px;
+  }
+  
+  .promo__progressBar-description {
+    margin-top: 7px;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .promo__wrapper {
+    flex-direction: column;
+  }
 }

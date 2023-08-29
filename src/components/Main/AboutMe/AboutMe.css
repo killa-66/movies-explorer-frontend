@@ -7,7 +7,6 @@
 
 .about-me__title {
   margin: 0;
-
   color: #000;
   font-size: 22px;
   font-style: normal;
@@ -37,7 +36,6 @@
 
 .about-me__name {
   margin: 0;
-
   color: #000;
   font-size: 50px;
   font-style: normal;
@@ -48,7 +46,6 @@
 .about-me__profession {
   width: 600px;
   margin: 18px 0 0;
-
   color: #000;
   font-feature-settings: 'clig' off, 'liga' off;
   font-size: 18px;
@@ -64,10 +61,8 @@
   max-width: 600px;
 }
 
-
-.about-me__description {
+.about-me__bio {
   margin-top: 26px;
-
   color: #000;
   font-feature-settings: 'clig' off, 'liga' off;
   font-size: 14px;
@@ -77,7 +72,7 @@
   letter-spacing: 0.5px;
 }
 
-.about-me__git-link {
+.about-me__github-link {
   text-decoration: none;
   margin-top: auto;
   color: #000;
@@ -85,7 +80,6 @@
   font-weight: 600;
   line-height: normal;
 }
-
 
 @media screen and (max-width: 1279px) {
   .about-me__description-wrapper {
@@ -95,7 +89,6 @@
   .about-me {
     padding: 90px 50px;
   }
-
 
   .about-me__name {
     font-size: 40px;
@@ -109,8 +102,7 @@
     letter-spacing: .5px;
   }
 
-
-  .about-me__main {
+  .about-me__content {
     margin-top: 66px;
     gap: 49px;
   }
@@ -120,13 +112,12 @@
     height: 307px;
   }
 
-  .about-me__description {
+  .about-me__bio {
     margin-top: 20px;
     font-size: 12px;
     line-height: 18px;
   }
 }
-
 
 @media screen and (max-width: 767px) {
   .about-me__title {
@@ -137,10 +128,6 @@
 
   .about-me__divider {
     margin-top: 28px;
-  }
-
-  .about-me__subtitle {
-    max-width: 292px;
   }
 
   .about-me__name {
@@ -168,14 +155,11 @@
     padding: 70px 14px;
   }
 
-
   .about-me__content {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     gap: 0;
-    margin-top: 59px;
-
   }
 
   .about-me__photo {
@@ -184,14 +168,18 @@
     width: 292px;
   }
 
-  .about-me__description {
+  .about-me__content {
+    margin-top: 59px;
+  }
+
+  .about-me__bio {
     max-width: 292px;
     margin-bottom: 0;
     font-size: 11px;
     line-height: 16px;
   }
 
-  .about-me__git-link {
+  .about-me__github-link {
     margin-top: 40px;
     font-size: 14px;
     line-height: normal;

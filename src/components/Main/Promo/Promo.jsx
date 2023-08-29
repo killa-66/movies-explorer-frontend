@@ -1,5 +1,5 @@
-import React from 'react'
-import './Promo.css'
+import React from 'react';
+import './Promo.css';
 
 export default function Promo() {
   return (
@@ -17,29 +17,29 @@ export default function Promo() {
         </div>
 
         <div className='promo__text-block'>
-          <h2 className={'promo__subtitle'}>
+          <h2 className='promo__subtitle'>
             На выполнение диплома ушло 5 недель
           </h2>
 
-          <p className={'promo__description'}>
+          <p className='promo__description'>
             У каждого этапа был мягкий и жёсткий дедлайн, которые нужно было соблюдать, чтобы успешно защититься.
           </p>
         </div>
       </div>
 
-      <div className='progressBar'>
-        <div className='progressBar__back progressBar__part_short'>
-          <p className='progressBar__text progressBar__text_colorized'>1 неделя</p>
+      <div className='promo__progressBar'>
+        <div className='promo__progressBar-back promo__progressBar-part_short'>
+          <p className='promo__progressBar-text promo__progressBar-text_colorized'>1 неделя</p>
         </div>
-        <div className='progressBar__front progressBar__part_long'>
-          <p className='progressBar__text'>4 недели</p>
+        <div className='promo__progressBar-front promo__progressBar-part_long'>
+          <p className='promo__progressBar-text'>4 недели</p>
         </div>
       </div>
 
-      <div className='progressBar__description'>
-        <p className='progressBar__text progressBar__description_text progressBar__part_short'>Back-end</p>
-        <p className='progressBar__text progressBar__description_text progressBar__part_long'>Front-end</p>
+      <div className='promo__progressBar-description'>
+        <p className='promo__progressBar-text promo__progressBar-description-text promo__progressBar-part_short'>Back-end</p>
+        <p className='promo__progressBar-text promo__progressBar-description-text promo__progressBar-part_long'>Front-end</p>
       </div>
     </div>
-  )
+  );
 }

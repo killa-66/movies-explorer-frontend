@@ -18,13 +18,19 @@
   letter-spacing: 0.2px;
 }
 
+@media screen and (max-width: 1279px) {
+  .portfolio__title {
+    margin-top: 90px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .portfolio__list {
     margin-top: 40px;
   }
 
   .portfolio__title {
-    margin-top: 70px;
+    margin-top: 65px;
 
     font-size: 14px;
     line-height: 20px;

@@ -35,7 +35,10 @@ export default function MoviesGrid({ data, element }) {
 
     iteration++
 
-    return <MoviesCard photo={card.photo} duration={card.duration}
+    return <MoviesCard
+      key={iteration}
+      photo={card.photo}
+      duration={card.duration}
       element={element}
       title={card.title}
       isOwned={card.isOwned} />

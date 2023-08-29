@@ -12,7 +12,7 @@ export default function SearchInput() {
           <input required={true}
             className='search__input'
             placeholder='Фильм' />
-          <button className='search__button' />
+          <button type='button' className='search__button' />
         </div>
         <div className={"search__checkbox-wrapper"}>
           <Checkbox />

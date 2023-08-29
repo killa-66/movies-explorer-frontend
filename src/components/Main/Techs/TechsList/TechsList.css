@@ -1,8 +1,23 @@
 .tech__list {
-  margin: 100px 0 0;
+  margin: 95px 0 0;
   list-style: none;
   padding: 0;
   display: flex;
   gap: 10px;
   justify-content: center;
+}
+
+@media screen and (max-width: 1279px) {
+  .tech__list {
+    margin-top: 83px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tech__list {
+    margin-top: 50px;
+    flex-wrap: wrap;
+    max-width: 200px;
+    align-self: center;
+  }
 }
