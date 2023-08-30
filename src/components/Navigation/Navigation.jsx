@@ -45,14 +45,14 @@ const Navigation = () => {
       </div>
       <div className="navigation__right">
         {!isLoggedIn ? (
-          <div className="navigation__menu">
+          <nav className="navigation__menu">
             <button type='button' className="navigation__signup">
               <Link to="/signup">Регистрация</Link>
             </button>
             <button type='button' className="navigation__signin">
               <Link to="/signin">Войти</Link>
             </button>
-          </div>
+          </nav>
         ) : (
           <>
             <Link to="/profile" className="account">

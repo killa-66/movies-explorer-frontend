@@ -31,7 +31,9 @@ export default function Login() {
     <>
       <section className="login">
         <div className="login__wrapper">
-          <Logo classStyle="login__logo" />
+          <Link to={'/'}>
+            <Logo classStyle="login__logo" />
+          </Link>
           <h1 className="login__title">Рады видеть!</h1>
           <form
             className="login__form"
@@ -47,6 +49,8 @@ export default function Login() {
                 type="email"
                 name="email"
                 minLength={4}
+                maxLength={30}
+                placeholder='example@mail.com'
                 required
               />
               <span className="login__error">{errors.email}</span>
@@ -60,6 +64,7 @@ export default function Login() {
                 type="password"
                 name="password"
                 minLength={8}
+                maxLength={30}
                 required
               />
               <span className="login__error">{errors.password}</span>

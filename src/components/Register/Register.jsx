@@ -43,6 +43,8 @@ export default function Register() {
                 type="text"
                 name="name"
                 minLength={4}
+                maxLength={30}
+                placeholder='Введите логин'
                 required={true}
               />
               <span className="login__error">{errors.name}</span>
@@ -59,6 +61,8 @@ export default function Register() {
                 type="email"
                 name="email"
                 minLength={4}
+                maxLength={30}
+                placeholder='Введите логин'
                 required={true}
               />
               <span className="login__error">{errors.email}</span>
@@ -78,6 +82,7 @@ export default function Register() {
                 type="password"
                 name="password"
                 minLength={8}
+                maxLength={30}
                 required={true}
               />
               <span className="login__error">{errors.password}</span>

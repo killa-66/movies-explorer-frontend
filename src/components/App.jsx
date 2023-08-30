@@ -22,26 +22,21 @@ export default function App() {
         {isLoading ? (
           <Loader />
         ) : (
-          <div className="App">
-            <Routes>
-              <Route path={"/"} element={<Main />} />
-              <Route path={"/movies"} element={<Movies />} />
-              <Route path={"/saved-movies"} element={<SavedMovies />} />
-              <Route path={"/sign-up"} element={<Register />} />
-              <Route path={"/sign-in"} element={<Login />} />
-              <Route path={"/profile"} element={<Profile />} />
-              <Route path={"*"} element={<NotFound />} />
-            </Routes>
-          </div>
+          <main>
+            <div className="App">
+              <Routes>
+                <Route path={"/"} element={<Main />} />
+                <Route path={"/movies"} element={<Movies />} />
+                <Route path={"/saved-movies"} element={<SavedMovies />} />
+                <Route path={"/sign-up"} element={<Register />} />
+                <Route path={"/sign-in"} element={<Login />} />
+                <Route path={"/profile"} element={<Profile />} />
+                <Route path={"*"} element={<NotFound />} />
+              </Routes>
+            </div>
+          </main>
         )}
       </LogInProvider>
     </PopupProvider>
-    // <Main />
-    // <Movies />
-    // <SavedMovies />
-    // <NotFound />
-    // <Login />
-    // <Register />
-    // <Profile />
   )
 }

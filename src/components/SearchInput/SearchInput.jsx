@@ -14,11 +14,11 @@ export default function SearchInput() {
             placeholder='Фильм' />
           <button type='button' className='search__button' />
         </div>
-        <div className={"search__checkbox-wrapper"}>
+        <div className='search__checkbox-wrapper'>
           <Checkbox />
         </div>
       </form>
-      <hr className={"search__hr"}></hr>
+      <hr className='search__hr'></hr>
     </section>
   )
 }

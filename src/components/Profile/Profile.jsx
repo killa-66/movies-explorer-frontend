@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import useValidation from '../../hooks/useValidation';
 import Navigation from '../Navigation/Navigation';
 import './Profile.css';
+import { Link } from 'react-router-dom';
 
 export default function Profile() {
   const [isEditActive, setIsEditActive] = useState(false);
@@ -43,7 +44,6 @@ export default function Profile() {
                   onChange={handleChange}
                   className="profile__input"
                   value={values.name || "Ярослав"}
-                  placeholder="Введите имя"
                 />
               ) : (
                 <p className="profile__value">Ярослав</p>
@@ -57,7 +57,6 @@ export default function Profile() {
                   onChange={handleChange}
                   value={values.email || "pochta@yandex.ru"}
                   className="profile__input"
-                  placeholder="Введите email"
                 />
               ) : (
                 <p className="profile__value">pochta@yandex.ru</p>
@@ -65,9 +64,11 @@ export default function Profile() {
             </div>
           </div>
           {button}
-          <button type='button' className="profile__button profile__button_type_exit">
-            Выйти из аккаунта
-          </button>
+          <Link to={-1}>
+            <button type='button' className="profile__button profile__button_type_exit">
+              Выйти из аккаунта
+            </button>
+          </Link>
         </form>
       </section>
     </>
