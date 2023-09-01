@@ -30,6 +30,13 @@
   gap: 16px;
 }
 
+.navigation__menu {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
 .nav-bar__link {
   text-decoration: none;
   cursor: pointer;
@@ -87,6 +94,11 @@
   line-height: 16px;
   letter-spacing: 0.5px;
 }
+
+.navigation__right {
+  display: flex;
+}
+
 .navigation__link_signup {
   color: #000;
 }
@@ -94,7 +106,8 @@
   color: #ffffff;
 }
 
-.navigation__burger {
+.account__burger {
+  display: none;
   cursor: pointer;
   display: none;
 }
@@ -141,6 +154,7 @@
     width: 54px;
     padding: 5px 0;
   }
+
   .navigation__menu {
     gap: 20px;
   }

@@ -26,7 +26,7 @@ const Navigation = () => {
         <Link to="/">
           <Logo classStyle="navigation__logo" />
         </Link>
-        {isLoggedIn && (
+        {!isLoggedIn && (
           <nav className="nav-bar">
             <ul className="nav-bar__list">
               <li className="nav-bar__item">
@@ -44,18 +44,18 @@ const Navigation = () => {
         )}
       </div>
       <div className="navigation__right">
-        {!isLoggedIn ? (
+        {isLoggedIn ? (
           <nav className="navigation__menu">
             <button type='button' className="navigation__signup">
-              <Link to="/signup">Регистрация</Link>
+              <Link to="/signup" className="navigation__link navigation__link_signup">Регистрация</Link>
             </button>
             <button type='button' className="navigation__signin">
-              <Link to="/signin">Войти</Link>
+              <Link to="/signin" className="navigation__link navigation__link_signin">Войти</Link>
             </button>
           </nav>
         ) : (
           <>
-            <Link to="/profile" className="account">
+            <Link to="/profile" className="account account__link">
               <Account />
               <p className="account__name">Аккаунт</p>
             </Link>

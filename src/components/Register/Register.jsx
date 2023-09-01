@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import useValidation from '../../hooks/useValidation';
 import Logo from '../UI-kit/Logo';
 import { Link } from 'react-router-dom';
+import Navigation from '../Navigation/Navigation';
 
 export default function Register() {
   const {
@@ -20,7 +21,7 @@ export default function Register() {
   };
 
   return (
-    <>
+    <main>
       <section className="login">
         <div className="login__wrapper">
           <Logo />
@@ -62,7 +63,7 @@ export default function Register() {
                 name="email"
                 minLength={4}
                 maxLength={30}
-                placeholder='Введите логин'
+                placeholder='Введите email'
                 required={true}
               />
               <span className="login__error">{errors.email}</span>
@@ -103,6 +104,6 @@ export default function Register() {
           </div>
         </div>
       </section>
-    </>
+    </main>
   )
 }

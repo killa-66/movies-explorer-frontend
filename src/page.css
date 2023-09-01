@@ -14,3 +14,9 @@ button:hover {
 a:hover {
   opacity: 0.8;
 }
+
+input:focus {
+  outline: none;
+  border: 1px solid #3456F3;
+  border-radius: 3px;
+}

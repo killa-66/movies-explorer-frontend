@@ -28,7 +28,7 @@ const IsOwned = ({ owned }) => {
             width="28"
             height="28"
             filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
+            colorInterpolationFilters="sRGB"
           >
             <feFlood floodOpacity="0" result="BackgroundImageFix" />
             <feColorMatrix
@@ -85,7 +85,7 @@ const IsOwned = ({ owned }) => {
           width="28"
           height="28"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
           <feFlood floodOpacity="0" result="BackgroundImageFix" />
           <feColorMatrix

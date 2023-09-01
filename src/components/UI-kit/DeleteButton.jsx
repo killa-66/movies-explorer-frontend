@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function DeleteButton({ onClick }) {
   return (
-    <svg onClick={onClick} className={'movies-card__delete-btn'}
+    <svg onClick={onClick} className={'movies-card__icon-delete'}
       xmlns="http://www.w3.org/2000/svg"
       width="16"
       height="16" viewBox="0 0 16 16" fill="none">

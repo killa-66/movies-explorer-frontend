@@ -3,7 +3,7 @@ import React from "react";
 const BurgerMenu = ({ onClick }) => {
   return (
     <svg
-      className={"navigation__burger"}
+      className={"account__burger"}
       onClick={onClick}
       xmlns="http://www.w3.org/2000/svg"
       width="44"

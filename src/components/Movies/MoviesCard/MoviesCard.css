@@ -31,6 +31,7 @@
   font-size: 13px;
   font-weight: 500;
   line-height: normal;
+  display: flex;
 }
 
 .movies-card__duration {
@@ -43,8 +44,6 @@
 
 .movies-card_is-owned:hover {
   opacity: 0.8;
-  cursor: pointer;
-  align-self: center;
 }
 
 .movies-card_is-owned {

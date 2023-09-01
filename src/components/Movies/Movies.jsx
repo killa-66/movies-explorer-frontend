@@ -11,9 +11,11 @@ export default function Movies() {
   return (
     <>
       <Navigation />
-      <SearchInput />
-      <MoviesGrid data={data.filmArray} element={IsOwned} />
-      <LoadMore isMore={true} />
+      <main>
+        <SearchInput />
+        <MoviesGrid data={data.filmArray} element={IsOwned} />
+        <LoadMore isMore={true} />
+      </main>
       <Footer />
     </>
   )

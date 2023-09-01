@@ -10,9 +10,11 @@ export default function Main() {
   return (
     <>
       <Header />
-      <AboutProject />
-      <Techs />
-      <AboutMe />
+      <main>
+        <AboutProject />
+        <Techs />
+        <AboutMe />
+      </main>
       <Footer />
     </>
   )

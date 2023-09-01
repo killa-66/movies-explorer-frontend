@@ -30,7 +30,7 @@ export default function Profile() {
   );
 
   return (
-    <>
+    <main>
       <Navigation />
       <section className="profile">
         <form onSubmit={handleSubmit} className="profile__form">
@@ -71,6 +71,6 @@ export default function Profile() {
           </Link>
         </form>
       </section>
-    </>
+    </main>
   );
 }
