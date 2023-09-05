@@ -18,7 +18,7 @@ export default function Checkbox() {
         checked={isChecked}
       />
       <span className='filter-checkbox__mark'></span>
-      <p className='filter-checkbox__tag'>Короткометражки</p>
+      <span className='filter-checkbox__tag'>Короткометражки</span>
     </label>
   )
 }

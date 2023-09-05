@@ -13,12 +13,12 @@ export default function SavedMovies() {
     <>
       <Popup />
       <Navigation />
-      <main>
+      <>
         <SearchInput />
         <MoviesGrid data={data.filmArraySaved}
           element={DeleteButton} />
         <LoadMore isMore={false} />
-      </main>
+      </>
       <Footer />
     </>
 

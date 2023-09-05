@@ -3,7 +3,7 @@ import React from "react";
 const Logo = ({ classStyle }) => {
   return (
     <svg
-      className={`header__logo ${classStyle}`}
+      className={`navigation__header-logo ${classStyle}`}
       xmlns="http://www.w3.org/2000/svg"
       width="38"
       height="38"

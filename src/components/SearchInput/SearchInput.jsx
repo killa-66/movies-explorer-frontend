@@ -5,20 +5,20 @@ import Checkbox from '../UI-kit/CheckBox/Checkbox'
 
 export default function SearchInput() {
   return (
-    <section className='search__section'>
-      <form className='search__form'>
-        <div className='search__wrapper'>
-          <div className='search__find-icon'></div>
+    <section className='search-section'>
+      <form className='search-section__form'>
+        <div className='search-section__wrapper'>
+          <div className='search-section__find-icon'></div>
           <input required={true}
-            className='search__input'
+            className='search-section__input'
             placeholder='Фильм' />
-          <button type='button' className='search__button' />
+          <button type='button' className='search-section__button' />
         </div>
-        <div className='search__checkbox-wrapper'>
+        <div className='search-section__checkbox-wrapper'>
           <Checkbox />
         </div>
       </form>
-      <hr className='search__hr'></hr>
+      <hr className='search-section__hr'></hr>
     </section>
   )
 }

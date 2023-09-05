@@ -55,7 +55,7 @@ const Navigation = () => {
           </nav>
         ) : (
           <>
-            <Link to="/profile" className="account account__link">
+            <Link to="/profile" className="account navigation__account-link">
               <Account />
               <p className="account__name">Аккаунт</p>
             </Link>

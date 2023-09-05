@@ -28,7 +28,7 @@ export default function Login() {
   };
 
   return (
-    <main>
+    <>
       <section className="login">
         <div className="login__wrapper">
           <Link to={'/'}>
@@ -83,6 +83,6 @@ export default function Login() {
           </div>
         </div>
       </section>
-    </main>
+    </>
   );
 }

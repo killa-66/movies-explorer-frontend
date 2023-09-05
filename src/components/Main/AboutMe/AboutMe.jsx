@@ -2,6 +2,7 @@ import React from 'react'
 import '../../UI-kit/UI-styles/UI-section.css'
 import './AboutMe.css'
 import Portfolio from '../Portfolio/Portfolio'
+import photo from '../../../images/me.jpeg'
 
 export default function AboutMe() {
   return (
@@ -9,7 +10,7 @@ export default function AboutMe() {
       <h2 className="about-me__title">Студент</h2>
       <hr className="about-me__divider" />
       <div className="about-me__content">
-        <img alt="Ярослав" className="about-me__photo" />
+        <img src={photo} alt="Ярослав" className="about-me__photo" />
         <div className="about-me__description-wrapper">
           <h3 className="about-me__name">Ярослав</h3>
           <p className="about-me__profession">Фуллстэк-разработчик, 24 года</p>
