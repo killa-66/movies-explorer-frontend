@@ -1,0 +1,23 @@
+.section {
+  box-sizing: border-box;
+  min-height: 608px;
+  background-color: #fafafa;
+  padding: 90px 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section__title {
+  color: #000;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.88px;
+  margin: 0;
+}
+
+.section__line {
+border-bottom: solid 1px #000;
+margin-top: 23px;
+}

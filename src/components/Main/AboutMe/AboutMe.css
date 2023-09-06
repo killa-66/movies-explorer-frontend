@@ -1,0 +1,187 @@
+.about-me {
+  display: flex;
+  flex-direction: column;
+  padding: 110px 70px 125px 70px;
+  background: #FAFAFA;
+}
+
+.about-me__title {
+  margin: 0;
+  color: #000;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.about-me__divider {
+  margin-bottom: 0;
+  width: 100%;
+  fill: #000;
+  margin-top: 23px;
+}
+
+.about-me__content {
+  margin-top: 66px;
+  display: flex;
+  gap: 270px;
+}
+
+.about-me__photo {
+  width: 270px;
+  height: 327px;
+  border-radius: 10px;
+  order: 1;
+}
+
+.about-me__name {
+  margin: 0;
+  color: #000;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 58px;
+}
+
+.about-me__profession {
+  width: 600px;
+  margin: 18px 0 0;
+  color: #000;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: .8px;
+}
+
+.about-me__description-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 600px;
+}
+
+.about-me__bio {
+  margin-top: 26px;
+  color: #000;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+}
+
+.about-me__github-link {
+  text-decoration: none;
+  margin-top: auto;
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+@media screen and (max-width: 1279px) {
+  .about-me__description-wrapper {
+    max-width: 364px;
+  }
+
+  .about-me {
+    padding: 90px 50px;
+  }
+
+  .about-me__name {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .about-me__profession {
+    margin-top: 16px;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: .5px;
+  }
+
+  .about-me__content {
+    margin-top: 66px;
+    gap: 49px;
+  }
+
+  .about-me__photo {
+    width: 255px;
+    height: 307px;
+  }
+
+  .about-me__bio {
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about-me__title {
+    font-size: 18px;
+    line-height: 22px;
+    color: #000;
+  }
+
+  .about-me__divider {
+    margin-top: 28px;
+  }
+
+  .about-me__name {
+    margin-top: 40px;
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .about-me__profession {
+    max-width: 282px;
+    margin-top: 20px;
+    line-height: 16px;
+    font-size: 11px;
+  }
+
+  .about-me__description-wrapper {
+    max-width: 292px;
+  }
+
+  .about-me {
+    box-sizing: border-box;
+    min-height: 1198px;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 14px;
+  }
+
+  .about-me__content {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+
+  .about-me__photo {
+    order: 0;
+    height: 352px;
+    width: 292px;
+  }
+
+  .about-me__content {
+    margin-top: 59px;
+  }
+
+  .about-me__bio {
+    max-width: 292px;
+    margin-bottom: 0;
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .about-me__github-link {
+    margin-top: 40px;
+    font-size: 14px;
+    line-height: normal;
+  }
+}

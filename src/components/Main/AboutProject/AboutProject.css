@@ -1,0 +1,42 @@
+.section__project {
+  box-sizing: border-box;
+  min-height: 608px;
+  background-color: #fafafa;
+  padding: 110px 70px;
+}
+
+.section__project_title {
+  margin: 0;
+
+  color: #000;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.section__project_line {
+  border-bottom: solid 1px #000;
+  margin-top: 23px;
+}
+
+@media screen and (max-width: 1279px) {
+  .section__project {
+    min-height: 585px;
+    padding: 90px 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section__project {
+    padding: 70px 18px;
+  }
+
+  .section__project_line {
+    margin-top: 28px;
+  }
+
+  .section__project_title {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

@@ -1,0 +1,39 @@
+.navbar {
+  align-self: center;
+  min-height: 66px;
+  display: flex;
+  align-items: center;
+  background: #F5F5F5;
+  width: 100%;
+  justify-content: center;
+}
+
+.navbar__list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.navbar__link {
+  color: #000;
+  /* font-family: Inter; */
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 123.077% */
+  text-decoration-line: underline;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar__list {
+    gap: 24px;
+  }
+
+  .navbar__link {
+    font-size: 11px;
+    line-height: 16px;
+  }
+}
